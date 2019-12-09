@@ -18,6 +18,8 @@ public class ConsumerEurekaStarter {
 
         //大家好
         //我是张家辉
+        //贪玩蓝月
+        //这是你没有玩过的全新版本
     }
 
     @Bean
