@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaConsumer04Ribbon" />
+        <module name="eurekaProvider02" />
+        <module name="eurekaServer01" />
+        <module name="pojo03" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FourStages" options="-parameters" />
+      <module name="eurekaConsumer04Ribbon" options="-parameters" />
+      <module name="eurekaProvider02" options="-parameters" />
+      <module name="eurekaServer01" options="-parameters" />
+      <module name="pojo03" options="-parameters" />
+    </option>
+  </component>
+</project>

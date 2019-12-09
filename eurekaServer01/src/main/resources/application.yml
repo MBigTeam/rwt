@@ -1,0 +1,13 @@
+server:
+  port: 10000   #程序通过springboot启动的tomcat的端口
+eureka:
+  client:
+    #表示是否将自己注册到Eureka Server,默认为true(因为我自身就是服务器端,所以设置为false)
+    register-with-eureka: false
+    #表示是否从Eureka Server获取注册信息,默认为true(我不需要从我自己的身上去拿服务器的注册信息)
+    fetch-Registry: false
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka
+spring:
+  application:
+    name: eureka-server
