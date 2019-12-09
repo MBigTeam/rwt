@@ -15,6 +15,9 @@ public class ConsumerEurekaStarter {
 
     public static void main(String[] args){
         SpringApplication.run(ConsumerEurekaStarter.class,args);
+
+        //大家好
+        //我是张家辉
     }
 
     @Bean
